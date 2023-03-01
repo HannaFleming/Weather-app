@@ -1,0 +1,123 @@
+
+body{
+    background-image: url("https://images.pexels.com/photos/1619569/pexels-photo-1619569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:300px;
+    padding: 80px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 50px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    color:white;
+
+}
+#inputId{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+#input:hover{
+    border: none;
+
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#date{ 
+    color:rgb(228, 226, 226);
+    font-family: 'Poppins', sans-serif;
+}
+#weather{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    margin:0;
+    
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    
+
+
+}
+#temp{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+
+}
+#condition{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top:0;
+
+
+}
+#humidity,#wind{
+    color: rgb(173, 171, 171);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin:0;
+}
+
+
+@media all and (max-width:800px){
+    #weather{
+        font-size: 10px;
+        
+    }
+   #form{
+    margin-top: 20px;
+   }
+}
+
+@media all and (max-width:500px){
+    #weather{
+        font-size: 17px;
+
+        
+    }
+    #form{
+      margin:10px;
+      width:55%;
+
+    }
+  #container{
+
+    
+  }
+  #inputId{
+   align-self:center;
+    font-size:12px;
+  }
+}
